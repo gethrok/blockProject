@@ -1,17 +1,14 @@
 - 
-  name: MakerSquare
-  url: http://themakersquare.com
-  screenshot: makersquare-screenshot.png
+  name: My.Section
+  url: https://my.esnculs.cz
+  screenshot: esn-culs-logo-black.png
   featured: true
   description: |
-                 MakerSquare is a full-time, ten week program that turns you into a web developer.
+                 My.Section is information portal for ESN sections, which allow sections to manage
+                 arriving students and its members. 
 - 
-  name: RailsGirls ATX
-  url: http://railsgirlsatx.org
-  source_link: http://github.com/railsgirlsatx/site
-  screenshot: railsgirls-screenshot.png
+  name: International Student System
+  url: http://iss.buddygo.cz
   featured: false
   description: |
-                 This is a very long description.
-
-                 It has multiple paragraphs.    
+                 

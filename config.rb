@@ -19,8 +19,8 @@ activate :sprockets
 ## Site-wide settings
 ####
 
-set :full_name, "Ada Lovelace"
-set :city, "London, England"
+set :full_name, "Vít Bareš"
+set :city, "Prague, Czech Republic"
 set :resume, nil # Set to filename of resume PDF in source directory.
 set :google_analytics_tracking_id, "UA-111111111-11"
 
@@ -31,24 +31,24 @@ set :google_analytics_tracking_id, "UA-111111111-11"
 # To hide one of these profile links, just set it to nil.
 
 # This is the id for your profile URL: https://plus.google.com/https://plus.google.com/110506932842622114536/
-set :google_plus_user_id, "110506932842622114536"
+set :google_plus_user_id, nil
 # This is your shortname for your profile URL: http://facebook.com/ada.lovelace
-set :facebook_profile_name, "ada.lovelace"
-set :twitter_username, "ada"
+set :facebook_profile_name, "vii.first"
+set :twitter_username, "Gethrok"
 # This is your shortname for your profile URL: http://linkedin.com/in/adalovelace
-set :linkedin_profile_name, "adalovelace"
-set :dribbble_username, "adalovelace"
-set :github_username, "ada"
-set :gravatar_email_address, "me@adalovelace.com"
+set :linkedin_profile_name, "vít-bareš"
+set :dribbble_username, nil
+set :github_username, "gethrok"
+set :gravatar_email_address, "vit.bares@hotmail.com"
 
-Time.zone = "America/Chicago"
+Time.zone = "Europe/Prague"
 
 
 ###
 ## Blog settings
 ###
 
-set :disqus_shortname, "adas-blog"
+set :disqus_shortname, "vii-blog"
 
 activate :blog do |blog|
   blog.prefix = "/blog"
@@ -155,7 +155,7 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 activate :syntax
 
 set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
+set :js_dir, 'javascripts' 
 set :images_dir, 'images'
 
 # Build-specific configuration
